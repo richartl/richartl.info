@@ -1,0 +1,10 @@
+version: '3'
+services:
+  blog:
+    image: ruby
+    volumes:
+      - ./src:/home/blog
+    working_dir: /home/blog
+    entrypoint: ./postinstall
+    ports:
+      - 4000:4000
