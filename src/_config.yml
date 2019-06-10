@@ -36,7 +36,7 @@ plugins:
 - jemoji
 
 # 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
+paginate: 4 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
@@ -63,10 +63,10 @@ collections:
   posts:
     title: Posts # Needed for Siteleaf
     output: true
-    description: "My thoughts and ideas" # The post list page content
-    feature_text: |
-      Mi mente como el universo, infinito y en expansión
-    feature_image: "/assets/main_1.jpg"
+    description: "Mis ideas" # The post list page content
+    #feature_text: |
+    #  Mi mente como el universo, infinito y en expansión
+    #  feature_image: "/assets/main_1.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -80,7 +80,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
 title: "richartl" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/logo.png" # Site logo, also used in jekyll-seo-tag
 description: "Mis ideas y contribución" # Site description and default description, also used in jekyll-seo-tag
 url: "http://ripperon.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
@@ -104,8 +104,8 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 
 # 9. Site navigation
 navigation_header:
-  Blog: /blog/
-  Categories: /categories/
+  posts: /blog/
+  categorias: /categories/
 
 navigation_footer:
   github: https://github.com/richartl
@@ -120,8 +120,8 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
   Twitter: "#0d94e7"
-  facebook: "#3B5998"
-  Google+: "#DC4E41"
+  # facebook: "#3B5998"
+  # Google+: "#DC4E41"
   # Pinterest: "#BD081C"
   # LinkedIn: "#0077B5"
   # tumblr: "#36465D"
