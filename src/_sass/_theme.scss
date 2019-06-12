@@ -58,6 +58,30 @@ body {
   }
 }
 
+.feature_post {
+  padding-bottom: .4rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+  background: $featureBackgroundColour;
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  @include flex-direction(column);
+  @include justify-content(center);
+}
+
+.playlist {
+  padding-bottom: .4rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  min-height: 40vh;
+  @include flex-direction(column);
+  @include justify-content(center);
+}
+
 .logo {
   display: inline-block;
   line-height: 0;
