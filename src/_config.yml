@@ -83,7 +83,7 @@ title: "richartl" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo-transparency.png" # Site logo, also used in jekyll-seo-tag
 description: "Mis ideas y contribución" # Site description and default description, also used in jekyll-seo-tag
 url: "https://ripperon.com" # Site url, also used in jekyll-seo-tag
-baseurl: "https://ripperon.com"
+baseurl: ""
 repo: ""
 email: "ricardo.pcan@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
