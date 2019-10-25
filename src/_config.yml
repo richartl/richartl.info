@@ -1,131 +1,70 @@
-# Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
-# 8. Site favicons & manifest icons
-# 9. Site navigation
+# Site setings
+name: 'richartl'
+description: 'Un simple espacio donde comparto ideas, conocimiento y cosas que me pueden resultar interesantes.'
+meta_description: 'Mi mente es igual al universo. Infinito y siempre en expansión...'
+logo: 'assets/images/logos/logo@120px.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: 
+production_url: https://richartl.info/
+#disqus: 'justgoodthemes'
+#mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
+cover_image: bg2.jpg
+# Add your GA Tracking Id
+ga_analytics: 
 
-# 1. Files excluded from Jekyll builds
-exclude:
-- README.md
-- CODE_OF_CONDUCT.md
-- CONTRIBUTING.md
-- screenshot.png
-- LICENSE
-- CNAME
-- Gemfile
-- Gemfile.lock
-- alembic-jekyll-theme.gemspec
-- .jekyll-cache
 
-# 2. Installed Gems
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jekyll-commonmark
-- jekyll-include-cache
-- jemoji
+# Author
+author:
+  name: 'Ricardo Alberto Pérez Candelas'
+  image: 'authorimage.jpg'
+  greetings: 'parabellum'
+  description: "Soy Ricardo, soy ingeniero en sistemas, amo la música, me aviento un palomazo, un tochito y le doy a la infra."
+  bio: 'Ricardo es ingeniero en sistemas, desarrollador back-end y un poco front-end, activo en las comunidades acerca de infraestructura, deportista, musico y loco'
 
-# 3. Gem settings
-paginate: 4 # jekyll-paginate > items per page
-paginate_path: blog/page:num # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-twitter:
-  username:  # jekyll-seo-tag > Owners twitter username
-author: Ricardo Pérez # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: Ricardo Pérez # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://github.com/richartl
-# markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
-# commonmark:
-  # options: ["SMART", "FOOTNOTES"]
-  # extensions: ["strikethrough", "autolink", "table"]
+# Contact form setings
+email: ricardo.pcan@gmail.com
+contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
+thankyou_page_description: "Todo correcto!!, gracias por contactarme, en un rato no muy largo te estaré respondiendo!!"
 
-# 4. Jekyll settings
+# Social links
+#twitter: 'username'
+#facebook: 'username'
+github: 'richartl'
+#codepen: 'username'
+#dribbble: 'username'
+#medium: '@username'
+instagram: 'elrichartl'
+#pinterest: 'username'
+#linkedin: 'username'
+#producthunt: '@username'
+
+# Navigation
+navigation:
+  #- text: About
+    #url: /about/
+  #- text: Style Guide
+    #url: /style-guide/
+  #- text: Contact Me
+    #url: /contact/
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-tagsgenerator
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Other
+markdown: kramdown
+
+# Sass
 sass:
-  style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: America/Mexico_City # Timezone for blog posts and alike
-
-# 5. Collections
-collections:
-  posts:
-    title: Posts # Needed for Siteleaf
-    output: true
-    description: "Mis ideas" # The post list page content
-    #feature_text: |
-    #  Mi mente como el universo, infinito y en expansión
-    #  feature_image: "/assets/main_1.jpg"
-
-# 6. Jekyll collections settings
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      image: "/assets/default-social-image.png" # Default image for sharing
-
-# 7. Site settings
-encoding: utf-8 # Make sure the encoding is right
-lang: en-US # Set the site language
-title: "richartl" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo-transparency.png" # Site logo, also used in jekyll-seo-tag
-description: "Mis ideas y contribución" # Site description and default description, also used in jekyll-seo-tag
-url: "https://richartl.info" # Site url, also used in jekyll-seo-tag
-baseurl: ""
-repo: ""
-email: "ricardo.pcan@gmail.com"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-# google_analytics: ''
-# service_worker: false # Will turn off the service worker if set to false
-css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
-
-# 8. Site favicons & manifest icons
-favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: '/assets/logos/logo@16px.png'
-  32: '/assets/logos/logo@32px.png'
-  96: '/assets/logos/logo@96px.png'
-  120: '/assets/logos/logo@120px.png'
-  144: '/assets/logos/logo@144px.png'
-  180: '/assets/logos/logo@180px.png'
-  512: '/assets/logos/logo@512px.png'
-  1024: '/assets/logos/logo@1024px.png'
-
-# 9. Site navigation
-navigation_header:
-  posts: /blog/
-  categorias: /categories/
-
-navigation_footer:
-  github: https://github.com/richartl
-
-social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter:
-  LinkedIn:
-  Google+:
-  GitHub:
-  link:
-  RSS: /feed.xml
-
-sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
-  # Twitter: "#0d94e7"
-  # facebook: "#3B5998"
-  # Google+: "#DC4E41"
-  # Pinterest: "#BD081C"
-  # LinkedIn: "#0077B5"
-  # tumblr: "#36465D"
-  # Reddit: "#FF4500"
-  # Hacker News: "#ff6600"
-  # Designer News: "#2D72D9"
-  # Email: ""
+  sass_dir: _sass
+  style: compressed

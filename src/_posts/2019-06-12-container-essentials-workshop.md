@@ -1,8 +1,9 @@
 ---
+layout: post
 title: Container Essentials
-categories:
-- Docker
-post_image: '/assets/blog/container_essentials_workshop/header.jpg'
+tags: [Docker, Infra]
+featured_image: 'assets/images/posts/2019/container_essentials_workshop/header.jpg'
+featured_image_thumbnail: 'assets/images/posts/2019/container_essentials_workshop/header_thumbnail.jpg'
 ---
 
 Estas semanas preparé un pequeño workshop en el cuál expuse un poco de historia acerca de los contenedores y realizamos unas prácticas sencillas para poder abstraer los conceptos que en determinado momento púeden ser algo complejos.

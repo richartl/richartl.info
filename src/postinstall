@@ -1,3 +1,4 @@
 #!/bin/bash
+bundle update
 bundle install
 jekyll s -p 4000 -H 0.0.0.0
