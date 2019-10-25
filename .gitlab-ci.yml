@@ -1,6 +1,6 @@
 image: ruby:2.3
 
-before_scriptL:
+before_script:
 - cd ./src
 - bundle install
 
