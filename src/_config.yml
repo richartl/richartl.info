@@ -6,11 +6,11 @@ logo: 'assets/images/logos/logo@120px.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://richartl.info/
-#disqus: 'justgoodthemes'
+disqus: 'richartl-info'
 #mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
 cover_image: bg2.jpg
 # Add your GA Tracking Id
-ga_analytics: 
+ga_analytics: UA-150991016-1
 
 
 # Author
@@ -18,11 +18,11 @@ author:
   name: 'Ricardo Alberto Pérez Candelas'
   image: 'authorimage.jpg'
   greetings: 'parabellum'
-  description: "Soy Ricardo, soy ingeniero en sistemas, amo la música, me aviento un palomazo, un tochito y le doy a la infra."
+  description: "Soy un muñeco de pruebas de choque de hobbie, traductor certificado del lenguaje binario, arqueólogo del código legado, soldador industrial de contenedores, maestro constructor de nubes ..."
   bio: 'Ricardo es ingeniero en sistemas, desarrollador back-end y un poco front-end, activo en las comunidades acerca de infraestructura, deportista, musico y loco'
 
 # Contact form setings
-email: ricardo.pcan@gmail.com
+email: el@richartl.info
 contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
 thankyou_page_description: "Todo correcto!!, gracias por contactarme, en un rato no muy largo te estaré respondiendo!!"
 
