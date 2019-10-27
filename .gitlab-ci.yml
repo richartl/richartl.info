@@ -19,12 +19,12 @@ deploy:
     script:
         - apt-get update
         - apt-get --yes --force-yes install rsync
-        - ls
+        - ls src
         - mkdir "${HOME}/.ssh"
         - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
         - echo "${SSH_PRIVATE_KEY}" > "${HOME}/.ssh/id_rsa"
         - chmod 700 "${HOME}/.ssh/id_rsa"
-        - rsync -chrtvzP -e "ssh -i ${HOME}/.ssh/id_rsa" public tdr@104.248.116.88:/home/tdr/vhosts/richartl.info/_site
+        - rsync -chrtvzP -e "ssh -i ${HOME}/.ssh/id_rsa" src/public tdr@104.248.116.88:/home/tdr/vhosts/richartl.info/_site
     artifacts:
         paths:
         - ./src/public
