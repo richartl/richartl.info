@@ -1,4 +1,7 @@
 image: ruby:2.3
+stages:
+    - build
+    - deploy
 
 before_script:
 - cd ./src
@@ -7,11 +10,23 @@ before_script:
 build:
     script:
     - jekyll build -d public
-    - pwd
-    - ls
     artifacts:
         paths:
         - ./src/public
     only:
     - master
     stage: build
+
+deploy:
+    script:
+        - mkdir "${HOME}/.ssh"
+        - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
+        - echo "${SSH_PRIVATE_KEY}" > "${HOME}/.ssh/id_rsa"
+        - chmod 700 "${HOME}/.ssh/id_rsa"
+        - rsync -chrtvzP -e "ssh -i ${HOME}/.ssh/id_rsa" public tdr@104.248.116.88:/home/tdr/vhosts/richartl.info/_site
+    artifacts:
+        paths:
+        - public
+    only:
+    - master
+    stage: deploy
