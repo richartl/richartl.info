@@ -7,10 +7,10 @@ build:
     script:
     - cd ./src
     - bundle install
-    - jekyll build -d public
+    - jekyll build
     artifacts:
         paths:
-        - ./src/public
+        - ./src/_site
     only:
     - master
     stage: build
@@ -24,10 +24,10 @@ deploy:
         - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
         - echo "${SSH_PRIVATE_KEY}" > "${HOME}/.ssh/id_rsa"
         - chmod 700 "${HOME}/.ssh/id_rsa"
-        - rsync -chrtvzP -e "ssh -i ${HOME}/.ssh/id_rsa" src/public tdr@104.248.116.88:/home/tdr/vhosts/richartl.info/_site
+        - rsync -chrtvzP -e "ssh -i ${HOME}/.ssh/id_rsa" src/_site tdr@104.248.116.88:/home/tdr/vhosts/richartl.info
     artifacts:
         paths:
-        - ./src/public
+        - ./src/_site
     only:
     - master
     stage: deploy
