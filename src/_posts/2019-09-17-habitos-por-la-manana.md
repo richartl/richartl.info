@@ -2,8 +2,8 @@
 title: Hábitos por la mañana
 layout: post
 tags: [Life]
-featured_image: 'assets/images/posts/2019/habitos_por_la_manana/header.jpg'
-featured_image_thumbnail: 'assets/images/posts/2019/habitos_por_la_manana/header_thumbnail.jpg'
+featured_image: '/assets/images/posts/2019/habitos_por_la_manana/header.jpg'
+featured_image_thumbnail: '/assets/images/posts/2019/habitos_por_la_manana/header_thumbnail.jpg'
 playlist: <iframe src="https://open.spotify.com/embed/user/22dbesvxgi7yutcssxnumbkwa/playlist/2ROeVl91QjShAw2NglkgnQ" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 ---
 Creo firmamente que como empieces el día es como vas a llevarlo. Para mí todos los días al salir de mi casa me imagino como si fuera a salir a un campo de batalla, me siento como en las peliculass que he visto en donde los soldados van en el avión directo al punto de batalla, como un gladiador mirando la luz sobre las rejas antes de salir al coliseo. Creo que desde que empezé a ver el día así y gracias a mis mentores he creado un ritual para antes de salir a **batalla**.
