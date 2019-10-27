@@ -3,12 +3,10 @@ stages:
     - build
     - deploy
 
-before_script:
-- cd ./src
-- bundle install
-
 build:
     script:
+    - cd ./src
+    - bundle install
     - jekyll build -d public
     artifacts:
         paths:
@@ -19,6 +17,8 @@ build:
 
 deploy:
     script:
+        - apt-get update
+        - apt-get --yes --force-yes install rsync
         - mkdir "${HOME}/.ssh"
         - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
         - echo "${SSH_PRIVATE_KEY}" > "${HOME}/.ssh/id_rsa"
