@@ -1,7 +1,7 @@
 # Site setings
 name: 'richartl'
 description: 'El mejor lugar donde puedes leer acerca de cosas high-tech y de deporte en el mismo lugar. El crossover entre el mundo nerd y los chicos cool que juegan deportes, RARO VERDAD? imaginate! esto es apenas la descripción!'
-meta_description: 'Mi mente es igual al universo. Infinito y siempre en expansión...'
+meta_description: 'El blog del chico devops deportista'
 logo: 'assets/images/logos/logo@120px.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: 
@@ -17,8 +17,8 @@ ga_analytics: UA-150991016-1
 author:
   name: 'Ricardo Alberto Pérez Candelas'
   image: 'authorimage.jpg'
-  greetings: 'parabellum'
-  description: "Soy un muñeco de pruebas de choque de hobbie, traductor certificado del lenguaje binario, arqueólogo del código legado, soldador industrial de contenedores, maestro constructor de nubes ..."
+  greetings: "Bienvenido chequeten!!"
+  description: "Este es el espacio bizarro donde se juntan ... CULTURA DEVOPS, DEPORTES, MAN-LIFESTYLE y porque no!! MUSICA también"
   bio: 'Ricardo es ingeniero en sistemas, desarrollador back-end y un poco front-end, activo en las comunidades acerca de infraestructura, deportista, musico y loco'
 
 # Contact form setings
