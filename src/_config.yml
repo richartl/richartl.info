@@ -17,7 +17,7 @@ ga_analytics: UA-150991016-1
 author:
   name: 'Ricardo Alberto Pérez Candelas'
   image: 'authorimage.jpg'
-  greetings: "Bienvenido chequeten!!"
+  greetings: "Bienvenido!!"
   description: "Este es el espacio bizarro donde se juntan ... CULTURA DEVOPS, DEPORTES, MAN-LIFESTYLE y porque no!! MUSICA también"
   bio: 'Ricardo es ingeniero en sistemas, desarrollador back-end y un poco front-end, activo en las comunidades acerca de infraestructura, deportista, musico y loco'
 
@@ -25,6 +25,13 @@ author:
 email: el@richartl.info
 contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
 thankyou_page_description: "Todo correcto!!, gracias por contactarme, en un rato no muy largo te estaré respondiendo!!"
+
+# Spotify config
+spotify:
+    main_playlist:
+        title: Test
+        url: https://open.spotify.com/embed/user/22dbesvxgi7yutcssxnumbkwa/playlist/2SQuiaZB76ZhzRBYc2RAqS
+        description: Esta semana
 
 # Social links
 #twitter: 'username'

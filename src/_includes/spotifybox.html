@@ -1,0 +1,32 @@
+{% if site.spotify.main_playlist %}
+<div class="outer">
+    <div class="post-feed-title inner">Lo que ando escuchando</div>
+    <div class="post-feed inner-wide">
+        <div class="post">
+            <div class="post-header">
+                <!--<div class="post-meta">-->
+                    <!--<time class="published" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>-->
+                <!--</div>[> .post-meta <]-->
+                <h2 class="post-title">
+                    {{ site.spotify.main_playlist.title }}
+                </h2>
+            </div><!-- .post-header -->
+            <!--{% if post.featured_image_thumbnail %}-->
+            <!--<a class="post-thumbnail" href="{{ post.url }}">-->
+                <!--<img src="{% if post.featured_image_thumbnail contains ' :// ' %}{{ post.featured_image_thumbnail }}{% else %}{{ post.featured_image_thumbnail | absolute_url }}{% endif %}"-->
+                     <!--alt="{{ post.title }}">-->
+            <!--</a>-->
+            <!--{% elsif post.featured_image %}-->
+            <!--<a class="post-thumbnail" href="{{ post.url }}">-->
+                <!--<img src="{% if post.featured_image contains ' :// ' %}{{ post.featured_image }}{% else %}{{ post.featured_image | absolute_url }}{% endif %}"-->
+                     <!--alt="{{ post.title }}">-->
+            <!--</a>-->
+            <!--{% else %}-->
+            <!--{% endif %}-->
+            <div class="post-content">
+                <iframe src="{{ site.spotify.main_playlist.url }}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div><!-- .post-content -->
+        </div><!-- .post -->
+    </div>
+</div>
+{% endif %}
