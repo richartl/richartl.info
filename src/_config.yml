@@ -8,7 +8,7 @@ baseurl:
 production_url: https://richartl.info/
 disqus: 'richartl-info'
 #mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
-cover_image: bg2.jpg
+cover_image: bg5.png
 # Add your GA Tracking Id
 ga_analytics: UA-150991016-1
 
@@ -16,8 +16,8 @@ ga_analytics: UA-150991016-1
 # Author
 author:
   name: 'Ricardo Alberto Pérez Candelas'
-  image: 'authorimage.jpg'
-  greetings: "Bienvenido chequeten!!"
+  image: 'author1.jpg'
+  greetings: "Ricardo Alberto Pérez Candelas"
   description: "Este es el espacio bizarro donde se juntan ... CULTURA DEVOPS, DEPORTES, MAN-LIFESTYLE y porque no!! MUSICA también"
   bio: 'Ricardo es ingeniero en sistemas, desarrollador back-end y un poco front-end, activo en las comunidades acerca de infraestructura, deportista, musico y loco'
 
