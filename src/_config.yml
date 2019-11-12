@@ -1,13 +1,13 @@
 # Site setings
-name: 'richartl'
+name: 'ricardoperezcandelas.com'
 description: 'El mejor lugar donde puedes leer acerca de cosas high-tech y de deporte en el mismo lugar. El crossover entre el mundo nerd y los chicos cool que juegan deportes, RARO VERDAD? imaginate! esto es apenas la descripción!'
 meta_description: 'El blog del chico devops deportista'
-logo: 'assets/images/logos/logo@120px.png'
+logo: 'assets/images/logos/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: 
-production_url: https://richartl.info/
+production_url: https://ricardoperezcandelas.com/
 disqus: 'richartl-info'
-#mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
+mailchimp_url: '//ricardoperezcandelas.us3.list-manage.com/subscribe/post?u=f6bfefdd847f320ff64671c92&amp;id=d7674004e1'
 cover_image: bg5.png
 # Add your GA Tracking Id
 ga_analytics: UA-150991016-1
@@ -40,8 +40,8 @@ instagram: 'elrichartl'
 
 # Navigation
 navigation:
-  #- text: About
-    #url: /about/
+  - text: Webinar Docker
+    url: /docker-webinar-2019/
   #- text: Style Guide
     #url: /style-guide/
   #- text: Contact Me
