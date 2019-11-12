@@ -41,7 +41,7 @@ instagram: 'elrichartl'
 # Navigation
 navigation:
   - text: Webinar Docker
-    url: /docker-webinar-2019/
+    url: /docker-webinar-2019
   #- text: Style Guide
     #url: /style-guide/
   #- text: Contact Me
