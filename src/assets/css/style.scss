@@ -427,13 +427,13 @@
   animation-duration: 0.45s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  -webkit-animation-name: fadeInOpacity;
-  animation-name: fadeInOpacity;
+  //-webkit-animation-name: fadeInOpacity;
+  //animation-name: fadeInOpacity;
   background-position: center;
   background-size: cover;
   bottom: 0;
   left: 0;
-  opacity: .15;
+  opacity: 1;
   position: absolute;
   right: 0;
   top: 0;
@@ -462,6 +462,11 @@
 .hero-title {
   font-size: 2.22222rem;
   margin: 0 0 0.75em;
+  color: #fff;
+}
+
+.hero-description {
+  color: #fff;
 }
 
 .hero .social-links a {

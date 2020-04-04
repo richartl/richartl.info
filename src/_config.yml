@@ -8,7 +8,7 @@ baseurl:
 production_url: https://ricardoperezcandelas.com/
 disqus: 'richartl-info'
 mailchimp_url: '//ricardoperezcandelas.us3.list-manage.com/subscribe/post?u=f6bfefdd847f320ff64671c92&amp;id=d7674004e1'
-cover_image: bg5.png
+cover_image: bg6.png
 # Add your GA Tracking Id
 ga_analytics: UA-150991016-1
 
@@ -16,13 +16,13 @@ ga_analytics: UA-150991016-1
 # Author
 author:
   name: 'Ricardo Alberto Pérez Candelas'
-  image: 'author1.jpg'
+  image: 'author1.png'
   greetings: "Ricardo Alberto Pérez Candelas"
-  description: "Este es el espacio bizarro donde se juntan ... CULTURA DEVOPS, DEPORTES, MAN-LIFESTYLE y porque no!! MUSICA también"
+  description: "Bienvenid@, en este espacio puedes encontrar mis proyectos, entradas y en general cosas que creo pueden aportar valor a la comunidad."
   bio: 'Ricardo es ingeniero en sistemas, desarrollador back-end y un poco front-end, activo en las comunidades acerca de infraestructura, deportista, musico y loco'
 
 # Contact form setings
-email: el@richartl.info
+email: me@ricardoperezcandelas.com
 contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
 thankyou_page_description: "Todo correcto!!, gracias por contactarme, en un rato no muy largo te estaré respondiendo!!"
 
@@ -40,8 +40,8 @@ instagram: 'elrichartl'
 
 # Navigation
 navigation:
-  - text: Webinar Docker
-    url: /docker-webinar-2019
+  #- text: Webinar Docker
+    #url: /docker-webinar-2019
   #- text: Style Guide
     #url: /style-guide/
   #- text: Contact Me
